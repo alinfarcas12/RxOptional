@@ -1,3 +1,3 @@
-github "Quick/Nimble" "v9.0.0"
-github "Quick/Quick" "v3.0.0"
-github "ReactiveX/RxSwift" "6.0.0"
+github "Quick/Nimble" "10b3977f4bb9afa0e4d9925eeb57aee7ac5f743e"
+github "Quick/Quick" "v6.1.0"
+github "ReactiveX/RxSwift" "6.5.0"

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,7 +19,7 @@
 		20651DBEE76021407BCA7E3E /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97AA2CD3DD0D0D830C0E1A /* Occupiable.swift */; };
 		2635596B686B33DEDFE43B3D /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1C8DB5DCD91AEE9C8A3F780 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2C6B194C98F945DC149AB54B /* RxOptionalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A42060607D345E90B247A9 /* RxOptionalError.swift */; };
-		2CA52F2500F5477E34EBC755 /* RxOptional macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA2BA7EDA36C2F7998475CF0 /* RxOptional macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CA52F2500F5477E34EBC755 /* RxOptional.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA2BA7EDA36C2F7998475CF0 /* RxOptional.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2FA140723E1385B282D4D7A9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732FC3AC808B5B9617EEC7CE /* Quick.framework */; };
 		30A311DA190F3D0B9C954F71 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC12B5EDFAD80CA7AF60F84 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		396A8FB2561438EC2083A99A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB4E994750B1F697A40594E /* RxSwift.framework */; };
@@ -32,10 +32,10 @@
 		4712D24B4812B278345EAA6A /* RxOptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6F8B84B08FC20621F94BBC /* RxOptional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48D56DC4312CF4F9622EE1EF /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC88FFB2CC39892B4EFD32 /* XCTestManifests.swift */; };
 		5040E5CCAF5942002B74817E /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858209A38226FACEC8E72F01 /* OptionalType.swift */; };
-		52AD08974C058EC79D5A1DA5 /* RxOptional iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BF78978CDB72ED600BBEE /* RxOptional iOS.framework */; };
+		52AD08974C058EC79D5A1DA5 /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BF78978CDB72ED600BBEE /* RxOptional.framework */; };
 		54497D9B18234E414BE1F461 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C153F760FF053539F5510716 /* RxCocoa.framework */; };
-		54692641C9F5ED2420A13C82 /* RxOptional iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F69BF78978CDB72ED600BBEE /* RxOptional iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		55AB52B176FDA8935CA11712 /* RxOptional macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2BA7EDA36C2F7998475CF0 /* RxOptional macOS.framework */; };
+		54692641C9F5ED2420A13C82 /* RxOptional.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F69BF78978CDB72ED600BBEE /* RxOptional.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		55AB52B176FDA8935CA11712 /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2BA7EDA36C2F7998475CF0 /* RxOptional.framework */; };
 		56FBD7BC7478DB29E609246F /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97AA2CD3DD0D0D830C0E1A /* Occupiable.swift */; };
 		581CF9B17343BA5D37681EA3 /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97AA2CD3DD0D0D830C0E1A /* Occupiable.swift */; };
 		5A82256F804CBC2810DB667A /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD7A384FF6847C3277EEF3F /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -45,7 +45,7 @@
 		661668935F4D9B4A2FBA3FAD /* Observable+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87D9F1A78D37B6147D4DA5 /* Observable+Occupiable.swift */; };
 		673055954AD9043C6BDFAD9C /* SharedSequence+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3031434D921796B780D82 /* SharedSequence+Optional.swift */; };
 		70DA4EABF427830FCD3CB601 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55530428263FAED4EB4ADEC /* RxSwift.framework */; };
-		7F9E871C818BADF9FDE23329 /* RxOptional tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E304B8E9B54DB2D6281F46 /* RxOptional tvOS.framework */; };
+		7F9E871C818BADF9FDE23329 /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E304B8E9B54DB2D6281F46 /* RxOptional.framework */; };
 		7FD2C379DC54A289596BB700 /* OptionalOperatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D944ECA20D955D4B060C77 /* OptionalOperatorsTests.swift */; };
 		8207476E41AFF8FCC0D53F8C /* RxOptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6F8B84B08FC20621F94BBC /* RxOptional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		886DED726292CFEF6D3BC118 /* OccupiableOperatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBAF4DD97C6BC69E0085F77 /* OccupiableOperatorsTests.swift */; };
@@ -60,6 +60,9 @@
 		BE7DE589D0C9403DB9E7D9EF /* SharedSequence+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD2A06CC523C21E0D8548B /* SharedSequence+Occupiable.swift */; };
 		C3F7265C293A824E8AE14C96 /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97AA2CD3DD0D0D830C0E1A /* Occupiable.swift */; };
 		C666907E86E8335302B10173 /* SharedSequence+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3031434D921796B780D82 /* SharedSequence+Optional.swift */; };
+		C7C5A30F29DB037000AF3697 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C5A30E29DB037000AF3697 /* RxSwift.xcframework */; };
+		C7C5A31329DB037E00AF3697 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C5A31229DB037E00AF3697 /* RxCocoa.xcframework */; };
+		C7C5A31729DB038800AF3697 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C5A31629DB038800AF3697 /* RxRelay.xcframework */; };
 		C89EC80689518816E663194C /* OptionalOperatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D944ECA20D955D4B060C77 /* OptionalOperatorsTests.swift */; };
 		CE96D5B0552BF66D099562D6 /* SharedSequence+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD2A06CC523C21E0D8548B /* SharedSequence+Occupiable.swift */; };
 		CF2A7F10B6CB312D1FC2103E /* Observable+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A125E26BDF738D2B2A6202BF /* Observable+Optional.swift */; };
@@ -74,9 +77,8 @@
 		E666B56802A3C20AB0D486CF /* SharedSequence+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD2A06CC523C21E0D8548B /* SharedSequence+Occupiable.swift */; };
 		E6B6AC26A338A8887FFC1012 /* Observable+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87D9F1A78D37B6147D4DA5 /* Observable+Occupiable.swift */; };
 		E9C044AAA31B80E95AEDA4C9 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2247F253B77B2C7B7C7F4949 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF3278EE5C59887057C03B2E /* RxOptional tvOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37E304B8E9B54DB2D6281F46 /* RxOptional tvOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF3278EE5C59887057C03B2E /* RxOptional.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37E304B8E9B54DB2D6281F46 /* RxOptional.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F500B32C301B0D6C6D4F2428 /* Observable+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87D9F1A78D37B6147D4DA5 /* Observable+Occupiable.swift */; };
-		F7E5258592F58D48509ADD51 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F901A32FE130D2832D7923C /* RxSwift.framework */; };
 		F8A613756AF9EBEB87C4ECA0 /* Observable+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87D9F1A78D37B6147D4DA5 /* Observable+Occupiable.swift */; };
 		FA7545955B3616E837F6B3CE /* Observable+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A125E26BDF738D2B2A6202BF /* Observable+Optional.swift */; };
 		FF68C51B63D8F1B5F2B9CE75 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD7A384FF6847C3277EEF3F /* RxCocoa.framework */; };
@@ -113,7 +115,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2CA52F2500F5477E34EBC755 /* RxOptional macOS.framework in Embed Frameworks */,
+				2CA52F2500F5477E34EBC755 /* RxOptional.framework in Embed Frameworks */,
 				9FEC6425C9697C2BB9C734DB /* Nimble.framework in Embed Frameworks */,
 				D31F7923A2E787977FA083A9 /* Quick.framework in Embed Frameworks */,
 				5A82256F804CBC2810DB667A /* RxCocoa.framework in Embed Frameworks */,
@@ -128,7 +130,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EF3278EE5C59887057C03B2E /* RxOptional tvOS.framework in Embed Frameworks */,
+				EF3278EE5C59887057C03B2E /* RxOptional.framework in Embed Frameworks */,
 				13C697CE2CCBFACBD5531B70 /* Nimble.framework in Embed Frameworks */,
 				064E3E76C201985F40B83D65 /* Quick.framework in Embed Frameworks */,
 				5FF9B6AF1EA2B41BF61149CD /* RxCocoa.framework in Embed Frameworks */,
@@ -143,7 +145,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				54692641C9F5ED2420A13C82 /* RxOptional iOS.framework in Embed Frameworks */,
+				54692641C9F5ED2420A13C82 /* RxOptional.framework in Embed Frameworks */,
 				30A311DA190F3D0B9C954F71 /* Nimble.framework in Embed Frameworks */,
 				E9C044AAA31B80E95AEDA4C9 /* Quick.framework in Embed Frameworks */,
 				4019F792CA6A2FB672D165F9 /* RxCocoa.framework in Embed Frameworks */,
@@ -161,7 +163,7 @@
 		1B7655DD09E6FBBC65422899 /* RxOptionalTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxOptionalTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2247F253B77B2C7B7C7F4949 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
 		2F901A32FE130D2832D7923C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		37E304B8E9B54DB2D6281F46 /* RxOptional tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxOptional tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E304B8E9B54DB2D6281F46 /* RxOptional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOptional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B73550C55898B45112C8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		44FC88FFB2CC39892B4EFD32 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		5CA3031434D921796B780D82 /* SharedSequence+Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedSequence+Optional.swift"; sourceTree = "<group>"; };
@@ -176,17 +178,20 @@
 		8FE3D7B8CE3525490933B21B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 		9E677309EBF1F0AB90EF5B3F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		A125E26BDF738D2B2A6202BF /* Observable+Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Optional.swift"; sourceTree = "<group>"; };
-		BF34A8D0BE70F26739BD5097 /* RxOptionalTests iOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "RxOptionalTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF34A8D0BE70F26739BD5097 /* RxOptionalTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxOptionalTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C153F760FF053539F5510716 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		C1679BA9C35567D5F504FE32 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		C55530428263FAED4EB4ADEC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		C7C5A30E29DB037000AF3697 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		C7C5A31229DB037E00AF3697 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		C7C5A31629DB038800AF3697 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
 		CB87D9F1A78D37B6147D4DA5 /* Observable+Occupiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Occupiable.swift"; sourceTree = "<group>"; };
-		CEC38EC84F9C77E55FDD6708 /* RxOptional watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxOptional watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC38EC84F9C77E55FDD6708 /* RxOptional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOptional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C8DB5DCD91AEE9C8A3F780 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		D4DD625AF54CF2767D5FAA20 /* RxOptionalTests tvOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "RxOptionalTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA2BA7EDA36C2F7998475CF0 /* RxOptional macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxOptional macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DD625AF54CF2767D5FAA20 /* RxOptionalTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxOptionalTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2BA7EDA36C2F7998475CF0 /* RxOptional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOptional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92F0264BAC6136A79209222 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
-		F69BF78978CDB72ED600BBEE /* RxOptional iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxOptional iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BF78978CDB72ED600BBEE /* RxOptional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOptional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFC6873E87A10E0976D0F20 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,7 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F9E871C818BADF9FDE23329 /* RxOptional tvOS.framework in Frameworks */,
+				7F9E871C818BADF9FDE23329 /* RxOptional.framework in Frameworks */,
 				000BD50B0AFF467055827627 /* Nimble.framework in Frameworks */,
 				D3097E79B6C04E9051B6DEE3 /* Quick.framework in Frameworks */,
 			);
@@ -205,7 +210,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55AB52B176FDA8935CA11712 /* RxOptional macOS.framework in Frameworks */,
+				55AB52B176FDA8935CA11712 /* RxOptional.framework in Frameworks */,
 				D39548268F529B62E3B5459A /* Nimble.framework in Frameworks */,
 				2FA140723E1385B282D4D7A9 /* Quick.framework in Frameworks */,
 			);
@@ -215,7 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AD08974C058EC79D5A1DA5 /* RxOptional iOS.framework in Frameworks */,
+				52AD08974C058EC79D5A1DA5 /* RxOptional.framework in Frameworks */,
 				0189A1BB9E6304AB13BBBA1C /* Nimble.framework in Frameworks */,
 				01CB35237B6DA8AC2A530FBA /* Quick.framework in Frameworks */,
 			);
@@ -244,7 +249,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54497D9B18234E414BE1F461 /* RxCocoa.framework in Frameworks */,
-				F7E5258592F58D48509ADD51 /* RxSwift.framework in Frameworks */,
+				C7C5A31729DB038800AF3697 /* RxRelay.xcframework in Frameworks */,
+				C7C5A30F29DB037000AF3697 /* RxSwift.xcframework in Frameworks */,
+				C7C5A31329DB037E00AF3697 /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,9 @@
 		08AB2D62844A2647E9FB4EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7C5A31629DB038800AF3697 /* RxRelay.xcframework */,
+				C7C5A31229DB037E00AF3697 /* RxCocoa.xcframework */,
+				C7C5A30E29DB037000AF3697 /* RxSwift.xcframework */,
 				CFC59C2F105D3BB00893E158 /* Carthage */,
 			);
 			name = Frameworks;
@@ -342,10 +352,10 @@
 		9FDFB0D148865C4684394AA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F69BF78978CDB72ED600BBEE /* RxOptional iOS.framework */,
-				DA2BA7EDA36C2F7998475CF0 /* RxOptional macOS.framework */,
-				37E304B8E9B54DB2D6281F46 /* RxOptional tvOS.framework */,
-				CEC38EC84F9C77E55FDD6708 /* RxOptional watchOS.framework */,
+				F69BF78978CDB72ED600BBEE /* RxOptional.framework */,
+				DA2BA7EDA36C2F7998475CF0 /* RxOptional.framework */,
+				37E304B8E9B54DB2D6281F46 /* RxOptional.framework */,
+				CEC38EC84F9C77E55FDD6708 /* RxOptional.framework */,
 				BF34A8D0BE70F26739BD5097 /* RxOptionalTests iOS.xctest */,
 				1B7655DD09E6FBBC65422899 /* RxOptionalTests macOS.xctest */,
 				D4DD625AF54CF2767D5FAA20 /* RxOptionalTests tvOS.xctest */,
@@ -437,7 +447,7 @@
 			);
 			name = "RxOptional watchOS";
 			productName = "RxOptional watchOS";
-			productReference = CEC38EC84F9C77E55FDD6708 /* RxOptional watchOS.framework */;
+			productReference = CEC38EC84F9C77E55FDD6708 /* RxOptional.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1CD2B6EA4FA6F3E24B74D63F /* RxOptional tvOS */ = {
@@ -454,7 +464,7 @@
 			);
 			name = "RxOptional tvOS";
 			productName = "RxOptional tvOS";
-			productReference = 37E304B8E9B54DB2D6281F46 /* RxOptional tvOS.framework */;
+			productReference = 37E304B8E9B54DB2D6281F46 /* RxOptional.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65A933B3482F525E66DC8D53 /* RxOptionalTests macOS */ = {
@@ -489,7 +499,7 @@
 			);
 			name = "RxOptional macOS";
 			productName = "RxOptional macOS";
-			productReference = DA2BA7EDA36C2F7998475CF0 /* RxOptional macOS.framework */;
+			productReference = DA2BA7EDA36C2F7998475CF0 /* RxOptional.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6F69539CB7F6307A6DBF3899 /* RxOptional iOS */ = {
@@ -506,7 +516,7 @@
 			);
 			name = "RxOptional iOS";
 			productName = "RxOptional iOS";
-			productReference = F69BF78978CDB72ED600BBEE /* RxOptional iOS.framework */;
+			productReference = F69BF78978CDB72ED600BBEE /* RxOptional.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7B1875DF13DB304EC80B85DB /* RxOptionalTests iOS */ = {
@@ -551,10 +561,9 @@
 		54001DEDA5CA627B9FD8FD3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1230;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = RxSwiftCommunity;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = D213AF7FE420057F215728B9 /* Build configuration list for PBXProject "RxOptional" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -721,6 +730,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -738,7 +748,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -747,7 +757,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
@@ -765,6 +775,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
@@ -776,6 +787,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -785,6 +797,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -799,6 +812,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
@@ -809,6 +823,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "RxSwiftCommunity.RxOptional.RxOptional-tvOS";
 				PRODUCT_NAME = RxOptional;
 				SDKROOT = appletvos;
@@ -852,6 +869,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -863,7 +881,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -871,7 +889,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
@@ -886,16 +904,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = "Sources/RxOptional/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "RxSwiftCommunity.RxOptional.RxOptional-iOS";
 				PRODUCT_NAME = RxOptional;
 				SDKROOT = iphoneos;
@@ -919,6 +943,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -934,12 +959,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
 				INFOPLIST_FILE = "Sources/RxOptional/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "RxSwiftCommunity.RxOptional.RxOptional-watchOS";
 				PRODUCT_NAME = RxOptional;
 				SDKROOT = watchos;
@@ -962,6 +991,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
@@ -980,6 +1010,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -992,10 +1023,12 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -1006,6 +1039,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "RxSwiftCommunity.RxOptional.RxOptional-macOS";
 				PRODUCT_NAME = RxOptional;
 				SDKROOT = macosx;
@@ -1024,16 +1060,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = "Sources/RxOptional/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "RxSwiftCommunity.RxOptional.RxOptional-iOS";
 				PRODUCT_NAME = RxOptional;
 				SDKROOT = iphoneos;
@@ -1050,6 +1092,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -1059,6 +1102,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -1073,12 +1117,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
 				INFOPLIST_FILE = "Sources/RxOptional/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "RxSwiftCommunity.RxOptional.RxOptional-watchOS";
 				PRODUCT_NAME = RxOptional;
 				SDKROOT = watchos;
@@ -1098,6 +1146,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
@@ -1108,6 +1157,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "RxSwiftCommunity.RxOptional.RxOptional-tvOS";
 				PRODUCT_NAME = RxOptional;
 				SDKROOT = appletvos;
@@ -1124,10 +1176,12 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -1138,6 +1192,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "RxSwiftCommunity.RxOptional.RxOptional-macOS";
 				PRODUCT_NAME = RxOptional;
 				SDKROOT = macosx;
